@@ -1,0 +1,13 @@
+.item {
+    list-style: none;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3'lü Grid */
+    gap: 20px;
+    list-style: none;
+    padding: 20px;
+}
