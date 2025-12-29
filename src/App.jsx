@@ -34,7 +34,7 @@ function App() {
 
         setImages((prev) => [...prev, ...data.results]);
         setTotalPages(data.total_pages);
-      } catch (error) {
+      } catch {
         setIsError(true);
       } finally {
         setIsLoading(false);
